@@ -12,7 +12,7 @@
     <title>Landing Page</title>
 </head>
 
-<body id="kpop" class="main-bg uppercase">
+<body id="kpop" class="main-bg">
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1><a href="#kpop">Kpop</a></h1>
@@ -47,6 +47,9 @@
             </div>
         </div>
     </section>
+
+    <div class="menu-spacing"></div>
+
     <section id="blackpink" class="intro main-bg sections">
         <div class="main-content intro-content">
             <div class="intro-text-content">
@@ -103,7 +106,7 @@
         </div>
     </section>
 
-    <section id="gallery" class="grid sections white-bg">
+    <section id="gallery" class="grid sections white-bg uppercase">
         <div class="main-content grid-one">
             <h2 class="grid-main-heading">gallery</h2>
             <p class="grid-description">Descibre</p>
@@ -146,7 +149,7 @@
                             <th>TITLE 2</th>
                             <th>TITLE 3</th>
                         </tr>
-
+                    </thead>
                     <tbody>
                         <tr>
                             <td>content 1</td>
@@ -168,42 +171,31 @@
                             <td>content 9</td>
                         </tr>
                     </tbody>
-                    </thead>
                 </table>
             </div>
         </div>
     </section>
     <section id="contact" class="intro main-bg sections">
         <div class="main-content intro-content">
-            <div class="intro-text-content">
-                <h2 class="uppercase">Twice</h2>
-                <p>Twice é um grupo feminino nipo-coreano formado pela JYP Entertainment em 2015. O grupo é composto de
-                    nove
-                    integrantes: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung e Tzuyu. Twice foi
-                    formado no
-                    reality show Sixteen e estreou em 20 de outubro de 2015, com o extended play The Story Begins.</p>
-            </div>
-            <div class="intro-img-content">
-                
-            </div>
             <div class="contact-form">
+                <h2>Form</h2>
                 <fieldset class="form-grid">
                     <legend>Contact me</legend>
                     <div class="form-group">
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <label for="first-name"></label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your First Name">
                     </div>
                     <div class="form-group">
-                        <label for="last-name">Second Name</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <label for="last-name"></label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
                     </div>
                     <div class="form-group">
-                        <label for="last-name">Email</label>
-                        <input type="email" name="email" id="email">
+                        <label for="last-name"></label>
+                        <input type="email" name="email" id="email" placeholder="Your Email">
                     </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <div class="form-group full-width">
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit">Send Message</button>
@@ -211,8 +203,10 @@
                 </fieldset>
             </div>
         </div>
-
     </section>
+    <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">❤</span> por Will</p>
+    </footer>
 </body>
 
 </html>
